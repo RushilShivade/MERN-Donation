@@ -1,0 +1,58 @@
+/* header.css */
+
+/* Background color for the header */
+.bg-blue-500 {
+  background-color: #3b82f6;
+}
+
+/* Container styles for the navbar */
+.container {
+  max-width: 100%;
+}
+
+/* Logo styles */
+img.h-8 {
+  height: 2rem;
+}
+
+/* Website name styles */
+h1.text-white {
+  color: #fff;
+}
+
+/* Navbar styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Menu items styles */
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+ul li:not(:last-child) {
+  margin-right: 1rem;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #d1d5db;
+}
+
+/* Donate button styles */
+a.bg-white {
+  background-color: #fff;
+  color: #3b82f6;
+  transition: background-color 0.3s ease;
+}
+
+a.bg-white:hover {
+  background-color: #bfdbfe;
+}
